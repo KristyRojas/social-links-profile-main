@@ -14,3 +14,51 @@ body{
     height: 100vh;
     margin:0;
 }
+.contenedor{
+    background-color: var(--Dark-Grey);
+    color: var(--White);
+    border-radius: 10px;
+    text-align: center;
+    width:340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:"Inter", sans-serif;
+    height: 90vh;
+}
+.cabe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    width: 75px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: 75px; /* Ajusta la altura de la imagen según tus necesidades */
+     /* Hace que los bordes sean redondeados, creando un círculo */
+    overflow: hidden; /* Asegura que la imagen respete el radio y no se desborde */
+}
+.cabe img {
+    
+    
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: 100%; /* La imagen ocupa el 100% de la altura del contenedor */
+    object-fit: cover; /* Mantiene la relación de aspecto y cubre completamente el contenedor */
+    border-radius: 50%;
+}
+
+.medio {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family:"Inter", sans-serif;
+}
+.medio h3{
+    font-family:"Inter", sans-serif;
+    margin-bottom: -10px;
+    font-weight: 700;
+}
+
+.medio p{
+    margin-top: 10px;
+    font-size: 14px;
+}
