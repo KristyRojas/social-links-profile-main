@@ -62,3 +62,37 @@ body{
     margin-top: 10px;
     font-size: 14px;
 }
+.pala{
+    color: var(--Green);
+    font-size: 14px; /* Cambia #ff0000 al color que desees */
+}
+.final{
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.final button{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:var(--White);
+    background-color: var(--Grey);
+    width: 300px;
+    height: 43px;
+    border:none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: none;
+    font-family:"Inter", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    transition: background-color 0.2s;
+}
+
+.final button:hover {
+    background-color: var(--Green); /* Cambia var(--NewColor) al color que desees */
+}
